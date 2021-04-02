@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>ARBlog</title>
+  </head>
+  <body>
+     
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ARBlog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Topic
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Web Devlopment</a></li>
+                <li><a class="dropdown-item" href="#">Compitative Coding</a></li>
+                <li><a class="dropdown-item" href="#">Artificial Intelligence</a></li>
+                <li><a class="dropdown-item" href="#">Data Science</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Support</a></li>
+                <li><a class="dropdown-item" href="#">Suggestion</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+           
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info" type="submit">Search</button>
+          </form>
+          <div class="mx-2"> 
+            <button class="btn btn-info">Login </button>
+            <button class="btn btn-info">Signup </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="WEBDEV.jpeg" class="d-block w-100" alt="web im g">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome to ARBlog</h2>
+            <p>Bolg which help in your coding journy</p>
+            <button type="button" class="btn btn-primary">Web-Devlopment</button>
+            <button type="button" class="btn btn-danger">Compitative Coding</button>
+            <button type="button" class="btn btn-success">Machine Learning</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="02.jpeg"  class="d-block w-100" alt="cp img">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome to ARBlog</h2>
+            <p>Bolg which help in your coding journy</p>
+            <button type="button" class="btn btn-primary">Web-Devlopment</button>
+            <button type="button" class="btn btn-danger">Compitative Coding</button>
+            <button type="button" class="btn btn-success">Machine Learning</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="03.jpeg"  class="d-block w-100" alt="AI img">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome to ARBlog</h2>
+            <p>Bolg which help in your coding journy</p>
+            <button type="button" class="btn btn-primary">Web-Devlopment</button>
+            <button type="button" class="btn btn-danger">Compitative Coding</button>
+            <button type="button" class="btn btn-success">Machine Learning</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container my-4"> 
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">Web-Devlopment</strong>
+              <h3 class="mb-0">Full Stack Web-Devlopment</h3>
+              <div class="mb-1 text-muted">April 2021</div>
+              <p class="card-text mb-auto">Measuring programming progress by lines of code is like measuring aircraft building progress by weight.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              
+              <img class="bd-placeholder-img" width="200" height="250" src="001.jpeg" alt="img"> 
+    
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Compitative Coding</strong>
+              <h3 class="mb-0">Devlope Problem Solving Skill
+              </h3>
+              <div class="mb-1 text-muted">April 2021</div>
+              <p class="mb-auto">Problem-solving skills are almost unanimously the most important qualification that employers look for more than programming languages proficiency.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="002.jpeg" alt="img"> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">Artificial Intelligence </strong>
+              <h3 class="mb-0">Future of Artificial Intelligence</h3>
+              <div class="mb-1 text-muted">April 2021</div>
+              <p class="card-text mb-auto">One of our big goals in search is to make search that really understands exactly what you want, understands everything in the world. that is artificial intelligence.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              
+              <img class="bd-placeholder-img" width="200" height="250" src="003.jpg" alt="img"> 
+    
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Data Science</strong>
+              <h3 class="mb-0">Future of Data Science
+              </h3>
+              <div class="mb-1 text-muted">April 2021</div>
+              <p class="mb-auto">Without big data analytics, companies are blind and deaf, wandering out onto the web like deer on a freeway.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="004.jpg" alt="img"> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <article class="blog-post">
+            <h3 class="blog-post-title">Good ways to learn web development</h3>
+            <p class="blog-post-meta">April 2021 by <b>Anubhav Rai</b> </p>
+    
+            <p> The internet is always growing, and is reaching more and more locations. Consequently, developing webpages is probably one of the 
+              most important fields in all of the IT world. Udemy allows students to learn the skills necessary to become web developers, 
+              and gives experienced web developers the chance to learn new skills as well as hone their current ones.</p>
+             <hr>
+           <p>Web development is a multi-discipline process. It involves two different aspects of software development. 
+             The front end designing part and the backend development part. Both parts have their own field. Known as the front end development and
+              the other known as the backend development. But since you didn’t mention the one you want to learn, I shall try to explain the process of 
+              learning both or learning full-stack development. TO be a full stack developer, you must first learn the most basic of Web language, HTML. 
+              Along with HTML, you should learn CSS and basic JavaScript. JavaScript might come in handy in backend development as well depending on your
+               choice of language. But its primary use is in Frontend. You will also have to learn some frameworks such as Bootstraps, JQuery, etc. Once you have completed these, 
+               you should focus on programming the backend. If you have prior experience in any programming language, I suggest you at first try to find out if there is a backend development framework of option available in that language. If not, there are options such as PHP, Python, JavaScript, C#, etc. for web development. Some of them such as PHP and JavaScript can be used to write raw web codes, whereas the others need to rely on a framework. 
+             Your choice should depend on some factors such as your location, your expertise, and knowledge in prior languages, etc.</p>
+
+            <h3>Front-End</h3>
+            <p>Front End web development takes care of the looks, interfaces, animations of the website.</p>
+            <p>HTML and CSS is the most fundamental and basic thing that you must and must know! HTML and CSS, however, are pretty easy to learn as they don’t involve much programming. And since those are scripting language and don’t even involve logic so they are pretty easy.
+
+              When you’ll be able to do things in CSS3 you will see that you already can do a lot of stuff and that is amazing, right? Here is one of the best courses that I recommend I myself took it!This is the most fundamental and basic thing that you must and must know! HTML and CSS, however, are pretty easy to learn as they don’t involve much programming. And since those are scripting language and don’t even involve logic so they are pretty easy.
+
+              When you’ll be able to do things in CSS3 you will see that you already can do a lot of stuff and that is amazing, right? Here is one of the best courses that I recommend I myself took it!</p>
+            <li>You should learn HTML and CSS as the base of layout development.</li>
+            <li>Later you should proceed for Bootstrap, which is a framework for CSS. With the languages mentioned till now, you can develop a cool static webpage.</li>
+            <li>To build dynamic webpages, you should learn JavaScript. Once you learn JavaScript, it will be easier for you to grasp the concepts of jQuery, which is a JavaScript framework. Jquery will help you apply JavaScript concepts smoothly and easily. You will certainly fall in love with jQuery.</li>
+            <li>(Optional) To make your page more attractive and glossy, you may wish to learn animations. So you can opt to learn SVG and Canvas. </li>
+            
+            <p>Never Understimate the power of practice that why practice as much you can , in the starting phase of learning you face many of problems but remember this is your time and you need to work hard as much you can. </p>
+           
+            <h3>Back-End</h3>
+             <p>Back-end Development refers to the server-side development. It focuses on databases, scripting, website architecture. It contains behind-the-scene activities that occur when performing any action on a website. It can be an account login or making a purchase from an online store. Code written by back-end developers helps browsers to communicate with database information.</p>
+             <li>Back end Development refers to the server-side development</li>
+             <li>Back end developer skills include Development Languages, Database and cache, Server, API (REST & SOAP), etc.</li>
+             <li>The backend web developer should understand the goals of the website and come up with effective solutions</li>
+             <li>The languages that a front-end developer should be familiar with are HTML, CSS, and JavaScript whereas Back End web developer should be familiar with the database, Server, API, etc.</li>
+             <li>Working experience of frameworks like Django for Python, Larval for PHP, etc</li>
+             <li>Backend engineer should know at least one server-side or Backend programming language like Java, Python, Ruby, . Net etc.</li>
+            
+             <p>After doing all that you become a full stack developer, One thing always remember that "Life is a journy here is no station, no destination keep learning and enojoy your journy.</p>
+          </article>
+          
+        </div>
+        <div class="col-sm-4">
+          <div class=" ">
+            <div class="p-4 mb-3 bg-light rounded">
+              <h4 class="fst-italic">About</h4>
+              <p class="mb-0">Hey...I'm Anubhav Rai,
+
+                Anubhav aspires to pursue a career in the Software Development & Engineering field and write code to solve business problems of certain organizations he is/will be associated with for now/future. When he's not busy problem solving (coding).
+                
+            </div>
+      
+            <div class="p-4">
+              <h5 class="fst-italic">Best Website to learn coding in 2021</h5>
+              <ol class="list-unstyled mb-0">
+                <li><a href="https://www.W3schools.com/">w3schools</a></li>
+                <li><a href="https://www.geeksforgeeks.org/">GeeksForGeeks</a></li>
+                <li><a href="https://www.hackerrank.com/" >Hackerrank</a></li>
+                <li><a href="https://www.codechef.com/">Codechef</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/">MDN </a></li>
+                <li><a href="https://www.tutorialspoint.com/index.htm">Tutorialspoint</a></li>
+                <li><a href="https://devdocs.io/">Devdocs</a></li>
+                <li><a href="https://www.udemy.com/">Udemy</a></li>
+                <li><a href="https://stackoverflow.com/">Stackoverflow</a></li>
+                <li><a href="https://www.freecodecamp.org/">Freecodecamp</a></li>
+              
+              </ol>
+            </div>
+
+        </div>
+      </div>
+
+    <hr>
+    <footer class="blog-footer py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="#">Back To Top</a>
+        </p>
+        <p class="mb-1">This the first tamplate, I make using Bootstrap @Anubhav_Rai</p>
+        <p class="mb-0">Contact Me <a href=" https://www.linkedin.com/in/anubhav-rai-9aa3261a6/"> linkedin</a> Either on <a href="https://www.instagram.com/anubhav_rai__/"> instagram</a></p>
+      </div>
+    </footer>
+ 
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
